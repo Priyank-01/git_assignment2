@@ -1,11 +1,12 @@
-var str="Masai";
-var x="";
-for (var i=str.length-1;i>=0;i--){
+let str="Masai";
+let x="";
+for (let i=str.length-1;i>=0;i--){
   x+=str[i];
 }
-if (x!=str){
+if (x===str){
   console.log("Its a palindrome");
 }
 else {
   console.log("It is not a palindrome");
 }
+console.log("work done");
